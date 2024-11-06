@@ -1,0 +1,131 @@
+/* importation de la police 'Poppins' de Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;400;500;600;700;900&display=swap');
+
+html, body{
+   font-family: 'Poppins', sans-serif;
+   margin: 0;
+}
+
+nav{
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   align-items: center;
+   gap: 10px;
+   padding: 10px;
+   -webkit-box-shadow: 0px 11px 24px -10px rgb(155, 155, 163);
+   -moz-box-shadow: 0px 11px 24px -10px rgb(172, 172, 175);
+   box-shadow: 0px 11px 24px -10px rgb(109, 110, 113);
+   background-color: white;
+   
+}
+
+*{
+      box-sizing: border-box;
+      text-decoration: none;
+}
+
+.logo{
+   display: flex;
+   gap: 20px;
+}
+
+ul{
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   align-items: center;
+   gap: 30px;
+}
+
+li{
+   list-style-type: none;
+   font-size: bold;
+}
+
+.button{
+   width: fit-content;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   padding: 8px 16px;
+   border-radius: 8px;
+   border: solid 2.5px #8005F2;
+   text-decoration: none;
+   font-weight: 500;
+   transition: all .3s ease-in-out;
+}
+
+.button:hover{
+   border: solid 2.5px #ba79f8;
+}
+
+.primary{
+   background: #8005f2;
+   color: white;
+}
+
+.primary:hover{
+   background: #ba79f8;
+}
+
+.secondary{
+   background: transparent;
+   color: #8005F2;
+} 
+
+.secondary:hover{
+   color: #ba79f8;
+}
+
+.buttons-container{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   gap: 16px;
+}
+
+.avatar{
+   width: 50px;
+   height: 50px;
+   border: solid 2px black;
+   border-radius: 100%;
+   object-fit: cover;
+}
+
+h1{
+   text-align: center;
+   font-weight: 900;
+   margin-top: 5%;
+   margin-bottom: 9%;
+}
+
+.card{
+   width: 30%;
+   background: white;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   border-radius: 32px;
+   overflow: hidden;
+   transition: all .3s ease-in-out;
+   -webkit-box-shadow: 0px 11px 24px -10px rgba(66, 68, 90, 1);
+   -moz-box-shadow: 0px 11px 24px -10px rgba(66, 68, 90, 1);
+   box-shadow: 0px 11px 24px -10px rgba(66, 68, 90, 1);
+}
+
+.shoes{
+   height: 100%;
+   width: 100%;
+}
+
+.prix{
+   display: flex;
+   gap: 250px;
+}
+
+
+
+
+
